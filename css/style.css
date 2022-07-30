@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body{
+    background-image: url(../images/retro-living-room-interior-design.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin: 60px;
+    height: 130vh;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.logo img{
+    float: left;
+    height: 80px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 350px;
+    border-bottom: 2px solid #fff;
+    padding-left: 0;
+    padding-bottom: 35px;
+}
+.list-item{
+    margin: 0 38px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.list-item:first-child{
+    margin-left: 0;
+}
+.list-item-call{
+    margin-left: 70px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.list-item-call img{
+    z-index: -1;
+    position: absolute;
+    right: 210px;
+    top: 20px;
+}
+.Up-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+h1{
+    font-size: 60px;
+    margin:150px 50px 30px 50px;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.141);
+    height: 180px;
+    width: 380px;
+    margin-left: 20px;
+    margin-top: 65px;
+}
+.card img{
+    
+    position: absolute;
+    top: 210px;
+    right: 55px;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 35px;
+    margin-top: 60px;
+}
+.card1-line{
+    width: 20%;
+    transform: rotate(90deg);
+    background-color: #fff;
+    border: 1px solid white;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.card1-circle{
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block; 
+    margin-left: 229px;
+    margin-top: 28px;
+}
+
+.bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btn{
+    margin: 80px 0 0 50px;
+}
+.learnmore-btn{
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    border:3px solid #fff;
+    padding: 23px 60px;
+    border-radius: 80px;
+}
+
+.card2{
+    background-color:  rgba(255, 255, 255, 0.141);
+    height: 200px;
+    width: 350px;
+    margin-top: 80px;
+}
+.card2 img{
+    position: absolute;
+    right: 450px;
+    top: 540px;
+}
+.card2 p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 35px;
+    margin-top: 50px;
+}
+.card2-line{
+    width: 20%;
+    margin-top: -100px;
+    margin-left: 350px;
+    background-color: #fff;
+    border: 1px solid white;
+}
+.card2-circle{
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: block; 
+    margin-left: 420px;
+    margin-top: -21px;
+}
