@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
-
 body{
     background-image: url(../images/retro-living-room-interior-design.jpg);
     background-repeat: no-repeat;
@@ -18,36 +16,32 @@ body{
 .list{
     display: flex;
     list-style-type: none;
-    margin-left: 350px;
+    margin-left: 300px;
     border-bottom: 2px solid #fff;
     padding-left: 0;
     padding-bottom: 35px;
 }
 .list-item{
-    margin: 0 38px;
-    font-size: 15px;
+    margin: 0 40px;
+    font-size: 18px;
     font-weight: 500;
 }
 .list-item:first-child{
     margin-left: 0;
 }
 .list-item-call{
-    margin-left: 70px;
-    font-size: 15px;
+ 
+    display: flex;
+    font-size: 20px;
     font-weight: 900;
 }
-.list-item-call img{
-    z-index: -1;
-    position: absolute;
-    right: 210px;
-    top: 20px;
-}
+ 
 .Up-section{
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 h1{
-    font-size: 60px;
+    font-size: 70px; 
     margin:150px 50px 30px 50px;
 }
 .card{
@@ -56,26 +50,29 @@ h1{
     width: 380px;
     margin-left: 20px;
     margin-top: 65px;
+    
 }
 .card img{
-    
-    position: absolute;
-    top: 210px;
-    right: 55px;
+    height: 35px;
+    background-color: #fff;
+    padding: 10px 35px;
+    border-radius: 35px;
+    margin: 25px 0 15px 30px;
 }
 .card p{
     font-size: 20px;
     font-weight: 500;
-    padding: 35px;
-    margin-top: 60px;
+   
+    margin: 0px 25px 10px 25px;
 }
+
 .card1-line{
     width: 20%;
     transform: rotate(90deg);
     background-color: #fff;
     border: 1px solid white;
     margin-right: 100px;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .card1-circle{
     height: 25px;
@@ -96,7 +93,7 @@ h1{
 }
 .learnmore-btn{
     background-color: transparent;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
     color: #fff;
     border:3px solid #fff;
@@ -111,15 +108,18 @@ h1{
     margin-top: 80px;
 }
 .card2 img{
-    position: absolute;
-    right: 450px;
-    top: 540px;
+    height: 35px;
+    background-color: #fff;
+    padding: 10px 35px;
+    border-radius: 35px;
+    margin: 25px 0 15px 30px;
+ 
 }
 .card2 p{
     font-size: 20px;
     font-weight: 500;
-    padding: 35px;
-    margin-top: 50px;
+    margin: 0px 25px 10px 25px;
+ 
 }
 .card2-line{
     width: 20%;
@@ -136,4 +136,103 @@ h1{
     display: block; 
     margin-left: 420px;
     margin-top: -21px;
+}
+@media screen and (max-width:700px) {
+    body{
+        background-size: cover;
+        background-color: #1d1d1d;
+        margin: 0;
+        height: auto;
+    }
+    header{
+        
+    }
+    nav{
+        display: none;
+    }
+
+    .logo img{
+        float: none;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .Up-section{
+        grid-template-columns: 1fr;
+    }
+    main{
+        margin: 0;
+    }
+    h1{
+        margin-top:50px ;
+        font-size: 40px;
+    }
+    .card{
+        height: 100px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+    .card img{
+        height: 18px;
+        padding: 7px 30px;
+        margin: 15px 0 0 20px;
+    }
+    .card p{
+        padding: 10px;
+        font-size: 13px;
+        margin: 0 10px 0 10px;
+        /* margin-top: 30px; */
+    }
+    .card1-line{
+        margin-right: 30px;
+        margin-top: 18px;
+    }
+    .card1-circle{
+        height: 18px;
+        width: 18px;
+        margin-right: 0px;
+        position: relative;
+        right: 89px;
+        margin-top: 10px;
+    }
+    .bottom-section{
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: 1fr;
+    }
+    .card2{
+        height: 100px;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .card2 img{
+        height: 18px;
+        padding: 7px 30px;
+        margin: 15px 0 0 20px;
+    }
+    .card2 p{
+        padding: 10px;
+        padding-top: 0px;
+        font-size: 13px;
+        margin: 0 10px 0 10px;
+    }
+    .card2-line{
+        margin-left: 200px;
+        margin-top: -80px;
+    }
+    .card2-circle{
+        height: 18px;
+        width: 18px;
+        margin-left: 240px;
+        margin-top: -19px;
+    }
+    .learnmore-btn{
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+    .btn{
+        margin: 50px 30px;
+    }
 }
